@@ -3,7 +3,7 @@ from pyowm.utils.config import get_default_config
 
 
 class WeatherItem:
-    APIkey = 'f627f629ce8f30bb3f8973de28703ece'
+    APIkey = 'Your weather API key'
 
     def __init__(self, city):
         self.city = city
