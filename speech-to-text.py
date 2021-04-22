@@ -7,9 +7,6 @@ import os
 from weatherAPI import WeatherItem
 import datetime
 
-# chrome load
-# chrome = 'C:\\"Program Files (x86)"\\Google\\Chrome\\Application\\chrome.exe'
-
 # special words declarations
 ACTIVATE_WORDS = ['adam', 'adamie']
 DEACTIVATE_WORDS = ['do widzenia', 'wyłącz', 'zgaś']
@@ -143,5 +140,3 @@ def speechBot():
 
 if __name__ == "__main__":
     speechBot()
-
-# transformer
